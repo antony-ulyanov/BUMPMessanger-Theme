@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
                        * BUMP
                        * Mgimo
                        * Mipt
-                       DESC                       
+                       DESC
+
   s.homepage         = "https://github.com/antony-ulyanov/BUMPMessanger-Theme"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
@@ -31,7 +32,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes'
   s.resource_bundles = {
     'BUMPMessanger-Theme' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  }  
 end
