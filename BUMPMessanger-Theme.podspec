@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
                        * BUMP
                        * Mgimo
                        * Mipt
-                       DESC
-                       https://github.com/antony-ulyanov/BUMPMessanger-Core.git
+                       DESC                       
   s.homepage         = "https://github.com/antony-ulyanov/BUMPMessanger-Theme"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
