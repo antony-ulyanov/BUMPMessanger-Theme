@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'BUMPMessanger-Theme', :exclusive => true do
+  pod "BUMPMessanger-Theme", :path => "../"
+
+  
+end
