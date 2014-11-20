@@ -10,21 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "BUMPMessanger-Theme"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BUMPMessanger-Theme."
+  s.summary          = "Themes for BUMPMessanger."
   s.description      = <<-DESC
-                       An optional longer description of BUMPMessanger-Theme
+                       Include themes for mirrors
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       * BUMP
+                       * Mgimo
+                       * Mipt
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BUMPMessanger-Theme"
+                       https://github.com/antony-ulyanov/BUMPMessanger-Core.git
+  s.homepage         = "https://github.com/antony-ulyanov/BUMPMessanger-Theme"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Anton Ulyanov" => "rumburu@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BUMPMessanger-Theme.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/antony-ulyanov/BUMPMessanger-Theme.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
@@ -33,6 +35,4 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
