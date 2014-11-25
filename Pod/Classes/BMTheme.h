@@ -1,9 +1,11 @@
 #import <Foundation/Foundation.h>
 
 
-//@class BMButtonWithIndicator;
-
 @protocol BMTheme <NSObject>
+
+#pragma mark Common
+
+@property(readonly) NSString *backgroundImageName;
 
 #pragma mark View#Splash
 
