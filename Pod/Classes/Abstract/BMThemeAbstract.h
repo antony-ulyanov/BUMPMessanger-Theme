@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import "BMTheme.h"
 
 
 @interface BMThemeAbstract : NSObject<BMTheme>

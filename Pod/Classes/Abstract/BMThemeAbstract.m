@@ -1,7 +1,10 @@
 #import "BMThemeAbstract.h"
+#import "BMRetinaDisplayUtil.h"
 
 
 @implementation BMThemeAbstract
+
+@synthesize backgroundImageName = _backgroundImageName;
 
 @synthesize splashImageName = _splashImageName;
 
@@ -61,6 +64,8 @@
 }
 
 - (void)initializeImages {
+    _backgroundImageName = [BMRetinaDisplayUtil updateImageNameForRetina4Inch:[self bundleImageName:@"Background/Background"]];
+    
     _splashImageName = [self bundleImageName:@"Splash/Default"];
     
     _authenticationLogoBigImageName = [self bundleImageName:@"Authentication/SignInLogoBig"];
