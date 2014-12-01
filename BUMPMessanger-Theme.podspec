@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*.{m,h,pch}'
   s.resource_bundles = {
-    'BUMPMessanger-Theme' => ['Pod/Assets/**/*.{bundle,xcassets}']
+    'BUMPMessanger-Theme.Bump' => ['Pod/Assets/ThemeBump.bundle/**/*.png'],
+    'BUMPMessanger-Theme.Mgimo' => ['Pod/Assets/ThemeMgimo.bundle/**/*.png'],
+    'BUMPMessanger-Theme.Mipt' => ['Pod/Assets/ThemeMipt.bundle/**/*.png']    
   }  
 end
