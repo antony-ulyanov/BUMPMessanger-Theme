@@ -11,7 +11,7 @@ objection_register(BMThemeBump)
 #pragma mark Logic#BMThemeDefault
 
 - (NSString * const)bundleName {
-    return @"ThemeBump.bundle";
+    return @"BUMPMessanger-Theme.bundle/ThemeBump.bundle";
 }
 
 @end

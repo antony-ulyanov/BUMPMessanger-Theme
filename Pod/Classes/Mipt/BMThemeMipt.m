@@ -11,7 +11,7 @@ objection_register(BMThemeMipt)
 #pragma mark Logic#BMThemeMipt
 
 - (NSString * const)bundleName {
-    return @"ThemeMipt.bundle";
+    return @"BUMPMessanger-Theme.bundle/ThemeMipt.bundle";
 }
 
 @end
