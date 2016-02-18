@@ -1,0 +1,14 @@
+PODS:
+  - BUMPMessanger-Theme (0.1.0)
+
+DEPENDENCIES:
+  - BUMPMessanger-Theme (from `../`)
+
+EXTERNAL SOURCES:
+  BUMPMessanger-Theme:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BUMPMessanger-Theme: fb7360f8d161a626ad9fac49468dae06564449b4
+
+COCOAPODS: 0.34.2
