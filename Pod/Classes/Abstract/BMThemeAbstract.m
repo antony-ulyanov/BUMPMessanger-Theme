@@ -26,6 +26,9 @@
 
 @synthesize defaultAvatarImageName = _defaultAvatarImageName;
 
+@synthesize defaultAvatarMaleImage = _defaultAvatarMaleImage;
+@synthesize defaultAvatarFemaleImage = _defaultAvatarFemaleImage;
+
 @synthesize socialNetworkVkontakte = _socialNetworkVkontakte;
 @synthesize socialNetworkFacebook = _socialNetworkFacebook;
 @synthesize socialNetworkTwitter = _socialNetworkTwitter;
@@ -85,6 +88,9 @@
     _messageCellFileAttachmentImageName = [self bundleImageName:@"Dialog/Message/Attachment/FileAttachment"];
     
     _defaultAvatarImageName = [self bundleImageName:@"Dialogs/DefaultAvatar"];
+
+    _defaultAvatarMaleImage = [self bundleImageName:@"Profile/defaultAvatarLargeMale"];
+    _defaultAvatarFemaleImage = [self bundleImageName:@"Profile/defaultAvatarLargeFemale"];
     
     _socialNetworkVkontakte = [self bundleImageName:@"SocialNetwork/VKontakte" withExtension:@"jpg"];
     _socialNetworkFacebook = [self bundleImageName:@"SocialNetwork/Facebook"];

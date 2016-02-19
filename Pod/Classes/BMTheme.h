@@ -39,6 +39,11 @@
 
 @property(readonly) NSString *defaultAvatarImageName;
 
+#pragma mark View#Profile
+
+@property(readonly) NSString *defaultAvatarMaleImage;
+@property(readonly) NSString *defaultAvatarFemaleImage;
+
 #pragma mark Component#SocialNetworkPanel
 
 @property(readonly) NSString *socialNetworkVkontakte;
